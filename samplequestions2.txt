@@ -1,107 +1,251 @@
-1. Which principle divides government into three branches?
-A. Federalism B. Separation of Powers C. Popular Sovereignty D. Judicial Review
-
-2. Which branch has the power to veto legislation?
-A. Legislative B. Judicial C. Executive D. State
-
-3. What is the main role of the judicial branch?
-A. Enforce laws B. Interpret laws C. Make laws D. Collect taxes
-
-4. Which amendment protects against self-incrimination?
-A. 4th B. 5th C. 6th D. 8th
-
-5. Which amendment guarantees a speedy trial?
-A. 1st B. 4th C. 6th D. 10th
-
-6. What does the Supremacy Clause establish?
-A. State law overrides federal B. Federal law overrides state C. Courts control states D. Congress
-controls courts
-
-7. Which level of government handles interstate commerce?
-A. State B. Local C. Federal D. Judicial
-
-8. What is the term for shared powers like taxation?
-A. Reserved B. Enumerated C. Concurrent D. Limited
-
-9. Which Arizona process allows voters to remove officials?
-A. Initiative B. Referendum C. Recall D. Amendment
-
-10. Which Arizona process lets voters reject laws?
-A. Initiative B. Referendum C. Recall D. Proposal
-
-11. Which document is longer and more detailed?
-A. U.S. Constitution B. Arizona Constitution C. Bill of Rights D. Declaration
-
-12. What year did Arizona become a state?
-A. 1900 B. 1912 C. 1920 D. 1930
-
-13. Which amendment granted women the right to vote?
-A. 15th B. 19th C. 21st D. 26th
-
-14. Which amendment lowered the voting age to 18?
-A. 18th B. 19th C. 24th D. 26th
-
-15. What is the purpose of checks and balances?
-A. Expand power B. Limit power C. Balance branches D. Remove courts
-
-16. Which branch confirms presidential appointments?
-A. House B. Senate C. Supreme Court D. Governor
-
-17. What does federalism describe?
-A. Branch powers B. State vs federal power C. Rights D. Laws
-
-18. Which amendment abolished slavery?
-A. 12th B. 13th C. 14th D. 15th
-
-19. Which clause allows Congress to stretch its powers?
-A. Supremacy B. Elastic C. Commerce D. Rights
-
-20. What type of legislature does Arizona have?
-A. Unicameral B. Bicameral C. Judicial D. Executive
-
-21. Who is the chief executive of Arizona?
-A. President B. Chief Justice C. Governor D. Senator
-
-22. What is the highest court in Arizona?
-A. District Court B. Appeals Court C. Arizona Supreme Court D. Federal Court
-
-23. Which case established judicial review?
-A. Brown v. Board B. Miranda v. Arizona C. Marbury v. Madison D. Roe v. Wade
-
-24. Which amendment protects against unreasonable searches?
-A. 1st B. 3rd C. 4th D. 7th
-
-25. What is the main function of the legislative branch?
-A. Interpret laws B. Enforce laws C. Make laws D. Try cases
-
-
-
-
-
-
-Answer Key
-1. B 1
-2. C 2
-3. B 1
-4. B 1
-5. C 2
-6. B 1
-7. C 2
-8. C 2
-9. C 2
-10. B 1
-11. B 1
-12. B 1
-13. B 1
-14. D 3
-15. C 2
-16. B 1
-17. B 1
-18. B 1
-19. B 1
-20. B 1
-21. C 2
-22. C 2
-23. C 2
-24. C 2
-25. C 2
+  // {
+  //   "question": "Which principle divides government into three branches?",
+  //   "options": [
+  //     "Federalism",
+  //     "Separation of Powers",
+  //     "Popular Sovereignty",
+  //     "Judicial Review"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which branch has the power to veto legislation?",
+  //   "options": [
+  //     "Legislative",
+  //     "Judicial",
+  //     "Executive",
+  //     "State"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "What is the main role of the judicial branch?",
+  //   "options": [
+  //     "Enforce laws",
+  //     "Interpret laws",
+  //     "Make laws",
+  //     "Collect taxes"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which amendment protects against self-incrimination?",
+  //   "options": [
+  //     "4th",
+  //     "5th",
+  //     "6th",
+  //     "8th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which amendment guarantees a speedy trial?",
+  //   "options": [
+  //     "1st",
+  //     "4th",
+  //     "6th",
+  //     "10th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "What does the Supremacy Clause establish?",
+  //   "options": [
+  //     "State law overrides federal",
+  //     "Federal law overrides state",
+  //     "Courts control states",
+  //     "Congress controls courts"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which level of government handles interstate commerce?",
+  //   "options": [
+  //     "State",
+  //     "Local",
+  //     "Federal",
+  //     "Judicial"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "What is the term for shared powers like taxation?",
+  //   "options": [
+  //     "Reserved",
+  //     "Enumerated",
+  //     "Concurrent",
+  //     "Limited"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": Which Arizona process allows voters to remove officials?"",
+  //   "options": [
+  //     "Initiative",
+  //     "Referendum",
+  //     "Recall",
+  //     "Amendment"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Which Arizona process lets voters reject laws?",
+  //   "options": [
+  //     "Initiative",
+  //     "Referendum",
+  //     "Recall",
+  //     "Proposal"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which document is longer and more detailed?",
+  //   "options": [
+  //     "U.S. Constitution",
+  //     "Arizona Constitution",
+  //     "Bill of Rights",
+  //     "Declaration"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "What year did Arizona become a state?",
+  //   "options": [
+  //     "1900",
+  //     "1912",
+  //     "1920",
+  //     "1930"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which amendment granted women the right to vote?",
+  //   "options": [
+  //     "15th",
+  //     "19th",
+  //     "21st",
+  //     "26th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which amendment lowered the voting age to 18?",
+  //   "options": [
+  //     "18th",
+  //     "19th",
+  //     "24th",
+  //     "26th"
+  //   ],
+  //   "answer": 3
+  // },
+  // {
+  //   "question": "What is the purpose of checks and balances?",
+  //   "options": [
+  //     "Expand power",
+  //     "Limit power",
+  //     "Balance branches",
+  //     "Remove courts"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Which branch confirms presidential appointments?",
+  //   "options": [
+  //     "House",
+  //     "Senate",
+  //     "Supreme Court",
+  //     "Governor"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "What does federalism describe?",
+  //   "options": [
+  //     "Branch powers",
+  //     "State vs federal power",
+  //     "Rights",
+  //     "Laws"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which amendment abolished slavery?",
+  //   "options": [
+  //     "12th",
+  //     "13th",
+  //     "14th",
+  //     "15th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Which clause allows Congress to stretch its powers?",
+  //   "options": [
+  //     "Supremacy",
+  //     "Elastic",
+  //     "Commerce",
+  //     "Rights"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "What type of legislature does Arizona have?",
+  //   "options": [
+  //     "Unicameral",
+  //     "Bicameral",
+  //     "Judicial",
+  //     "Executive"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Who is the chief executive of Arizona?",
+  //   "options": [
+  //     "President",
+  //     "Chief Justice",
+  //     "Governor",
+  //     "Senator"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "What is the highest court in Arizona?",
+  //   "options": [
+  //     "District Court",
+  //     "Appeals Court",
+  //     "Arizona Supreme Court",
+  //     "Federal Court"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Which case established judicial review?",
+  //   "options": [
+  //     "Brown v. Board",
+  //     "Miranda v. Arizona",
+  //     "Marbury v. Madison",
+  //     "Roe v. Wade"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Which amendment protects against unreasonable searches?",
+  //   "options": [
+  //     "1st",
+  //     "3rd",
+  //     "4th",
+  //     "7th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "What is the main function of the legislative branch?",
+  //   "options": [
+  //     "Interpret laws",
+  //     "Enforce laws",
+  //     "Make laws",
+  //     "Try cases"
+  //   ],
+  //   "answer": 2
+  // },
+  //
