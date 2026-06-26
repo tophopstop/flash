@@ -44,7 +44,7 @@ function render() {
       <div id="result">Score: ${correctCount} / ${order.length} (${pct}%)</div>
       <button id="restart">Restart</button>
     `;
-    document.getElementById('restart').addEventListener('click', start);
+    document.getElementById('restart').addEventListener('click', showSetup);
     return;
   }
 
@@ -85,10 +85,39 @@ function selectAnswer(displayIdx) {
   }, 700);
 }
 
-function start() {
+function showSetup() {
+  const app = document.getElementById('app');
+  const total = questions.length;
+  app.innerHTML = `
+    <div id="setup">
+      <label for="numQuestions">Number of questions (1-${total}):</label><br>
+      <input type="number" id="numQuestions" min="1" max="${total}" value="${total}">
+      <button id="beginBtn">Start</button>
+      <div id="setupError" style="color:#a82a2a; margin-top:8px;"></div>
+    </div>
+  `;
+  const input = document.getElementById('numQuestions');
+  const beginBtn = document.getElementById('beginBtn');
+  const errorDiv = document.getElementById('setupError');
+  const begin = () => {
+    let n = parseInt(input.value, 10);
+    if (isNaN(n) || n < 1 || n > total) {
+      errorDiv.textContent = `Please enter a number between 1 and ${total}.`;
+      return;
+    }
+    start(n);
+  };
+  beginBtn.addEventListener('click', begin);
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') begin();
+  });
+}
+
+function start(numQuestions) {
   current = 0;
   correctCount = 0;
-  order = shuffle(questions.map((_, i) => i));
+  const n = numQuestions || questions.length;
+  order = shuffle(questions.map((_, i) => i)).slice(0, n);
   render();
 }
 
@@ -298,7 +327,7 @@ questions = [
 //
 
 ];
-start();
+showSetup();
 </script>
 </body>
 </html>
