@@ -25,6 +25,7 @@ let order = [];
 let current = 0;
 let correctCount = 0;
 let answered = false;
+let currentOptionOrder = [];
 
 function shuffle(arr) {
   const a = arr.slice();
@@ -48,33 +49,36 @@ function render() {
   }
 
   const q = questions[order[current]];
+  const optionOrder = shuffle(q.options.map((_, i) => i));
+  currentOptionOrder = optionOrder;
   app.innerHTML = `
     <div id="progress">Question ${current + 1} of ${order.length}</div>
     <div id="question">${q.question}</div>
     <div id="options"></div>
   `;
   const optionsDiv = document.getElementById('options');
-  q.options.forEach((opt, idx) => {
+  optionOrder.forEach((origIdx, displayIdx) => {
     const btn = document.createElement('button');
     btn.className = 'option';
-    btn.textContent = opt;
-    btn.addEventListener('click', () => selectAnswer(idx));
+    btn.textContent = q.options[origIdx];
+    btn.addEventListener('click', () => selectAnswer(displayIdx));
     optionsDiv.appendChild(btn);
   });
   answered = false;
 }
 
-function selectAnswer(idx) {
+function selectAnswer(displayIdx) {
   if (answered) return;
   answered = true;
   const q = questions[order[current]];
+  const correctDisplayIdx = currentOptionOrder.indexOf(q.answer);
   const buttons = document.querySelectorAll('.option');
   buttons.forEach((btn, i) => {
-    if (i === q.answer) btn.classList.add('correct');
-    else if (i === idx) btn.classList.add('incorrect');
+    if (i === correctDisplayIdx) btn.classList.add('correct');
+    else if (i === displayIdx) btn.classList.add('incorrect');
     btn.disabled = true;
   });
-  if (idx === q.answer) correctCount++;
+  if (displayIdx === correctDisplayIdx) correctCount++;
   setTimeout(() => {
     current++;
     render();
