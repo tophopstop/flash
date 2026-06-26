@@ -1,155 +1,504 @@
-1. The first three words of the U.S. Constitution are:
-A We the States B We the People C In God We Trust D Four Score
-
-2. Amendments are described in which Article?
-A I B III C V D VII
-
-3. Number of Articles in the Constitution?
-A5 B6 C7 D10
-
-4. House members serve:
-A 4 yrs B 2 yrs C 6 yrs D 8 yrs
-
-5. Senate terms are:
-A2 B4 C6 D8
-
-6. President pro tempore serves in:
-A House B Senate C Court D Cabinet
-
-7. Revenue bills begin in the:
-A Senate B House C President D Courts
-
-8. Treaties require approval by:
-A House B Senate C Cabinet D Governors
-
-9. Presidential impeachment trials occur in:
-A House B Senate C Court D White House
-
-10. Chief Justice presides over:
-A regular Senate B presidential impeachment C House D Cabinet
-
-11. Congress may coin:
-A treaties B money C judges D governors
-
-12. Federal judges are appointed by:
-A Congress B President C States D Voters
-
-13. Federal judges serve:
-A10 yrs B20 yrs CLife D4 yrs
-
-14. Quartering soldiers:
-A2nd B3rd C4th D5th
-
-15. Unenumerated rights:
-A9th B10th C11th D12th
-
-16. Double jeopardy:
-A4th B5th C6th D8th
-
-17. Civil jury:
-A5th B6th C7th D8th
-
-18. Excessive bail:
-A6th B7th C8th D9th
-
-19. Repealed Prohibition:
-A18th B20th C21st D22nd
-
-20. Presidential term limits:
-A20th B21st C22nd D25th
-
-21. Presidential disability:
-A23rd B24th C25th D27th
-
-22. Poll taxes banned:
-A22nd B23rd C24th D26th
-
-23. Declares war:
-AExecutive BLegislative CJudicial DStates
-
-24. Interprets laws:
-AExecutive BLegislative CJudicial DLocal
-
-25. Override veto:
-ASimple B2/3 both houses CUnanimous DCourt
-
-26. Arizona capital:
-ATucson BPhoenix CFlagstaff DYuma
-
-27. Arizona legislators represent:
-ACounties BDistricts CCities DSchools
-
-28. Arizona Declaration of:
-AFreedoms BRights CJustice DCitizens
-
-29. Public education addressed by Arizona Constitution:
-ATax BEducation CCourts DElections
-
-30. Arizona chief legal officer:
-ATreasurer BSecretary CAttorney General DGovernor
-
-31. Next after governor:
-ATreasurer BSecretary of State CAttorney General DChief Justice
-
-32. Counties are subdivisions of:
-AFederal BState CCity DSchool
-
-33. School districts created mainly by:
-AFederal BState CCounty DCity
-
-34. Citizens may amend Arizona Constitution by:
-AOrder BInitiative CCourt DCabinet
-
-35. Prevents concentration of power:
-APopular sovereignty BSeparation of powers CFederalism DLiberty
-
-36. Officials obey law:
-ARule of law BFederalism CRepublic DChecks
-
-37. Equal protection:
-A13 B14 C15 D16
-
-38. Income tax:
-A15 B16 C17 D18
-
-39. Direct election of senators:
-A15 B16 C17 D19
-
-40. Supreme law clause:
-ACommerce BSupremacy CCredit DDue Process
-
-41. Full Faith and Credit concerns:
-ABranches BStates CTaxes DElections
-
-42. Representative democracy is also called:
-ADirect democracy BRepublic CMonarchy DFederalism
-
-43. Initiative reflects:
-AMonarchy BDirect democracy CJudicial review DFederalism
-
-44. Not a federal branch:
-ALegislative BExecutive CAdministrative DJudicial
-
-45. Teacher licensure mostly:
-AFederal BState CCounty DCity
-
-46. Public education responsibility:
-AFederal BState CCounty DPrivate
-
-47. Freedom of assembly:
-A1st B2nd C4th D5th
-
-48. Self-incrimination:
-A3rd B4th C5th D6th
-
-49. Sole impeachment power:
-ASenate BHouse CCourts DPresident
-
-50. Supreme law of Arizona:
-AStatutes BCharter CArizona Constitution DOrders
-
-
-
+  // {
+  //   "question": "The first three words of the U.S. Constitution are:",
+  //   "options": [
+  //     "We the States",
+  //     "We the People",
+  //     "In God We Trus",
+  //     "Four Score"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Amendments are described in which Article?",
+  //   "options": [
+  //     "I",
+  //     "III",
+  //     "V",
+  //     "VII"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Number of Articles in the Constitution?",
+  //   "options": [
+  //     "5",
+  //     "6",
+  //     "7",
+  //     "10"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "House members serve:",
+  //   "options": [
+  //     "4 yrs",
+  //     "2 yrs",
+  //     "6 yrs",
+  //     "8 yrs"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Senate terms are:",
+  //   "options": [
+  //     "2nd",
+  //     "4th",
+  //     "6th",
+  //     "8th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "President pro tempore serves in:",
+  //   "options": [
+  //     "House",
+  //     "Senate",
+  //     "Court",
+  //     "Cabinet"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Revenue bills begin in the:",
+  //   "options": [
+  //     "Senate",
+  //     "House",
+  //     "President",
+  //     "Courts"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Treaties require approval by:",
+  //   "options": [
+  //     "House",
+  //     "Senate",
+  //     "Cabinet",
+  //     "Governors"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Presidential impeachment trials occur in:",
+  //   "options": [
+  //     "House",
+  //     "Senate",
+  //     "Court",
+  //     "White House"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Chief Justice presides over:",
+  //   "options": [
+  //     "regular Senate",
+  //     "presidential impeachment",
+  //     "House",
+  //     "Cabinet"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Congress may coin:",
+  //   "options": [
+  //     "treaties",
+  //     "money",
+  //     "judges",
+  //     "governors"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Federal judges are appointed by:",
+  //   "options": [
+  //     "Congress",
+  //     "President",
+  //     "States",
+  //     "Voters"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Federal judges serve:",
+  //   "options": [
+  //     "10 yrs",
+  //     "20 yrs",
+  //     "Life",
+  //     "4 yrs"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Quartering soldiers:",
+  //   "options": [
+  //     "2nd",
+  //     "3rd",
+  //     "4th",
+  //     "5th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Unenumerated rights:",
+  //   "options": [
+  //     "9th",
+  //     "10th",
+  //     "11th",
+  //     "12th"
+  //   ],
+  //   "answer": 0
+  // },
+  // {
+  //   "question": "Double jeopardy:",
+  //   "options": [
+  //     "4th",
+  //     "5th",
+  //     "6th",
+  //     "8th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Civil jury:",
+  //   "options": [
+  //     "5th",
+  //     "6th",
+  //     "7th",
+  //     "8th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Excessive bail:",
+  //   "options": [
+  //     "6th",
+  //     "7th",
+  //     "8th",
+  //     "9th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Repealed Prohibition:",
+  //   "options": [
+  //     "18th",
+  //     "20th",
+  //     "21st",
+  //     "22nd"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Presidential term limits:",
+  //   "options": [
+  //     "20th",
+  //     "21st",
+  //     "22nd",
+  //     "25th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Presidential disability:",
+  //   "options": [
+  //     "23rd",
+  //     "24th",
+  //     "25th",
+  //     "27th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Poll taxes banned:",
+  //   "options": [
+  //     "22nd",
+  //     "23rd",
+  //     "24th",
+  //     "26th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Declares war:",
+  //   "options": [
+  //     "Executive",
+  //     "Legislative",
+  //     "Judicial",
+  //     "States"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Interprets laws:",
+  //   "options": [
+  //     "Executive",
+  //     "Legislative",
+  //     "Judicial",
+  //     "Local"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Override veto:",
+  //   "options": [
+  //     "Simple",
+  //     "2/3 both houses",
+  //     "Unanimous",
+  //     "Court"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "",
+  //   "options": [
+  //     "Tucson",
+  //     "Phoenix",
+  //     "Flagstaff",
+  //     "Yuma"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Arizona legislators represent:",
+  //   "options": [
+  //     "Counties",
+  //     "Districts",
+  //     "Cities",
+  //     "Schools"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Arizona Declaration of:",
+  //   "options": [
+  //     "Freedoms",
+  //     "Rights",
+  //     "Justice",
+  //     "Citizens"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Public education addressed by Arizona Constitution:",
+  //   "options": [
+  //     "Tax",
+  //     "Education",
+  //     "Courts",
+  //     "Elections"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Arizona chief legal officer:",
+  //   "options": [
+  //     "Treasurer",
+  //     "Secretary",
+  //     "Attorney General",
+  //     "Governor"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Next after governor:",
+  //   "options": [
+  //     "Treasurer",
+  //     "Secretary of State",
+  //     "Attorney General",
+  //     "Chief Justice"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Counties are subdivisions of:",
+  //   "options": [
+  //     "Federal",
+  //     "State",
+  //     "City",
+  //     "School"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "School districts created mainly by:",
+  //   "options": [
+  //     "Federal",
+  //     "State",
+  //     "County",
+  //     "City"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Citizens may amend Arizona Constitution by:",
+  //   "options": [
+  //     "Order",
+  //     "Initiative",
+  //     "Court",
+  //     "Cabinet"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Prevents concentration of power:",
+  //   "options": [
+  //     "Popular sovereignty",
+  //     "Separation of powers",
+  //     "Federalism",
+  //     "Liberty"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Officials obey law:",
+  //   "options": [
+  //     "Rule of law",
+  //     "Federalism",
+  //     "Republic",
+  //     "Checks"
+  //   ],
+  //   "answer": 0
+  // },
+  // {
+  //   "question": "Equal protection:",
+  //   "options": [
+  //     "13h",
+  //     "14th",
+  //     "15th",
+  //     "16th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Income tax:",
+  //   "options": [
+  //     "15th",
+  //     "16th",
+  //     "17th",
+  //     "18th"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Direct election of senators:",
+  //   "options": [
+  //     "14th",
+  //     "16th",
+  //     "17th",
+  //     "19th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Supreme law clause:",
+  //   "options": [
+  //     "Commerce",
+  //     "Supremecy",
+  //     "Credit",
+  //     "Due Process"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Full Faith and Credit concerns:",
+  //   "options": [
+  //     "Branches",
+  //     "States",
+  //     "Taxes",
+  //     "Elections"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Representative democracy is also called:",
+  //   "options": [
+  //     "Direct democracy",
+  //     "Republic",
+  //     "Monarchy",
+  //     "Federalism"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Initiative reflects:",
+  //   "options": [
+  //     "Monarchy",
+  //     "Direct democracy",
+  //     "Judicial review",
+  //     "Federalism"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Not a federal branch:",
+  //   "options": [
+  //     "Legislative",
+  //     "Executive",
+  //     "Administrative",
+  //     "Judicial"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Teacher licensure mostly:",
+  //   "options": [
+  //     "Federal",
+  //     "State",
+  //     "County",
+  //     "City"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Public education responsibility:",
+  //   "options": [
+  //     "Federal",
+  //     "State",
+  //     "County",
+  //     "Private"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Freedom of assembly:",
+  //   "options": [
+  //     "1st",
+  //     "2nd",
+  //     "4th",
+  //     "5th"
+  //   ],
+  //   "answer": 0
+  // },
+  // {
+  //   "question": "Self-incrimination:",
+  //   "options": [
+  //     "3rd",
+  //     "4th",
+  //     "5th",
+  //     "6th"
+  //   ],
+  //   "answer": 2
+  // },
+  // {
+  //   "question": "Sole impeachment power:",
+  //   "options": [
+  //     "Senate",
+  //     "House",
+  //     "Courts",
+  //     "President"
+  //   ],
+  //   "answer": 1
+  // },
+  // {
+  //   "question": "Supreme law of Arizona",
+  //   "options": [
+  //     "Statutes",
+  //     "Charter",
+  //     "Arizona Constitution",
+  //     "Orders"
+  //   ],
+  //   "answer": 2
+  // },
+  //
 
 Answer Key
 1. B 1
