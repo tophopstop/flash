@@ -1,0 +1,204 @@
+1. The first three words of the U.S. Constitution are:
+A We the States B We the People C In God We Trust D Four Score
+
+2. Amendments are described in which Article?
+A I B III C V D VII
+
+3. Number of Articles in the Constitution?
+A5 B6 C7 D10
+
+4. House members serve:
+A 4 yrs B 2 yrs C 6 yrs D 8 yrs
+
+5. Senate terms are:
+A2 B4 C6 D8
+
+6. President pro tempore serves in:
+A House B Senate C Court D Cabinet
+
+7. Revenue bills begin in the:
+A Senate B House C President D Courts
+
+8. Treaties require approval by:
+A House B Senate C Cabinet D Governors
+
+9. Presidential impeachment trials occur in:
+A House B Senate C Court D White House
+
+10. Chief Justice presides over:
+A regular Senate B presidential impeachment C House D Cabinet
+
+11. Congress may coin:
+A treaties B money C judges D governors
+
+12. Federal judges are appointed by:
+A Congress B President C States D Voters
+
+13. Federal judges serve:
+A10 yrs B20 yrs CLife D4 yrs
+
+14. Quartering soldiers:
+A2nd B3rd C4th D5th
+
+15. Unenumerated rights:
+A9th B10th C11th D12th
+
+16. Double jeopardy:
+A4th B5th C6th D8th
+
+17. Civil jury:
+A5th B6th C7th D8th
+
+18. Excessive bail:
+A6th B7th C8th D9th
+
+19. Repealed Prohibition:
+A18th B20th C21st D22nd
+
+20. Presidential term limits:
+A20th B21st C22nd D25th
+
+21. Presidential disability:
+A23rd B24th C25th D27th
+
+22. Poll taxes banned:
+A22nd B23rd C24th D26th
+
+23. Declares war:
+AExecutive BLegislative CJudicial DStates
+
+24. Interprets laws:
+AExecutive BLegislative CJudicial DLocal
+
+25. Override veto:
+ASimple B2/3 both houses CUnanimous DCourt
+
+26. Arizona capital:
+ATucson BPhoenix CFlagstaff DYuma
+
+27. Arizona legislators represent:
+ACounties BDistricts CCities DSchools
+
+28. Arizona Declaration of:
+AFreedoms BRights CJustice DCitizens
+
+29. Public education addressed by Arizona Constitution:
+ATax BEducation CCourts DElections
+
+30. Arizona chief legal officer:
+ATreasurer BSecretary CAttorney General DGovernor
+
+31. Next after governor:
+ATreasurer BSecretary of State CAttorney General DChief Justice
+
+32. Counties are subdivisions of:
+AFederal BState CCity DSchool
+
+33. School districts created mainly by:
+AFederal BState CCounty DCity
+
+34. Citizens may amend Arizona Constitution by:
+AOrder BInitiative CCourt DCabinet
+
+35. Prevents concentration of power:
+APopular sovereignty BSeparation of powers CFederalism DLiberty
+
+36. Officials obey law:
+ARule of law BFederalism CRepublic DChecks
+
+37. Equal protection:
+A13 B14 C15 D16
+
+38. Income tax:
+A15 B16 C17 D18
+
+39. Direct election of senators:
+A15 B16 C17 D19
+
+40. Supreme law clause:
+ACommerce BSupremacy CCredit DDue Process
+
+41. Full Faith and Credit concerns:
+ABranches BStates CTaxes DElections
+
+42. Representative democracy is also called:
+ADirect democracy BRepublic CMonarchy DFederalism
+
+43. Initiative reflects:
+AMonarchy BDirect democracy CJudicial review DFederalism
+
+44. Not a federal branch:
+ALegislative BExecutive CAdministrative DJudicial
+
+45. Teacher licensure mostly:
+AFederal BState CCounty DCity
+
+46. Public education responsibility:
+AFederal BState CCounty DPrivate
+
+47. Freedom of assembly:
+A1st B2nd C4th D5th
+
+48. Self-incrimination:
+A3rd B4th C5th D6th
+
+49. Sole impeachment power:
+ASenate BHouse CCourts DPresident
+
+50. Supreme law of Arizona:
+AStatutes BCharter CArizona Constitution DOrders
+
+
+
+
+Answer Key
+1. B 1
+2. C 2
+3. C 2
+4. B 1
+5. C 2
+6. B 1
+7. B 1
+8. B 1
+9. B 1
+10. B 1
+11. B 1
+12. B 1
+13. C 2
+14. B 1
+15. A 0
+16. B 1
+17. C 2
+18. C 2
+19. C 2
+20. C 2
+21. C 2
+22. C 2
+23. B 1
+24. C 2
+25. B 1
+26. B 1
+27. B 1
+28. B 1
+29. B 1
+30. C 2
+31. B 1
+32. B 1
+33. B 1
+34. B 1
+35. B 1
+36. A 0
+37. B 1
+38. B 1
+39. C 2
+40. B 1
+41. B 1
+42. B 1
+43. B 1
+44. C 2
+45. B 1
+46. B 1
+47. A 0
+48. C 2
+49. B 1
+50. C 2
