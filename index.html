@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz</title>
+<style>
+  body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
+  #question { font-size: 1.2em; margin-bottom: 16px; }
+  .option { display: block; width: 100%; text-align: left; padding: 10px; margin: 6px 0;
+            border: 1px solid #888; border-radius: 6px; background: #f5f5f5; cursor: pointer; font-size: 1em; }
+  .option:hover { background: #e8e8e8; }
+  .option.correct { background: #c8f0c8; border-color: #2a8a2a; }
+  .option.incorrect { background: #f0c8c8; border-color: #a82a2a; }
+  #progress { color: #555; margin-bottom: 8px; }
+  #result { font-size: 1.4em; }
+  button#restart { margin-top: 16px; padding: 8px 16px; }
+</style>
+</head>
+<body>
+<div id="app">Loading...</div>
+
+<script>
+let questions = [];
+let order = [];
+let current = 0;
+let correctCount = 0;
+let answered = false;
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function render() {
+  const app = document.getElementById('app');
+  if (current >= order.length) {
+    const pct = order.length ? Math.round((correctCount / order.length) * 100) : 0;
+    app.innerHTML = `
+      <div id="result">Score: ${correctCount} / ${order.length} (${pct}%)</div>
+      <button id="restart">Restart</button>
+    `;
+    document.getElementById('restart').addEventListener('click', start);
+    return;
+  }
+
+  const q = questions[order[current]];
+  app.innerHTML = `
+    <div id="progress">Question ${current + 1} of ${order.length}</div>
+    <div id="question">${q.question}</div>
+    <div id="options"></div>
+  `;
+  const optionsDiv = document.getElementById('options');
+  q.options.forEach((opt, idx) => {
+    const btn = document.createElement('button');
+    btn.className = 'option';
+    btn.textContent = opt;
+    btn.addEventListener('click', () => selectAnswer(idx));
+    optionsDiv.appendChild(btn);
+  });
+  answered = false;
+}
+
+function selectAnswer(idx) {
+  if (answered) return;
+  answered = true;
+  const q = questions[order[current]];
+  const buttons = document.querySelectorAll('.option');
+  buttons.forEach((btn, i) => {
+    if (i === q.answer) btn.classList.add('correct');
+    else if (i === idx) btn.classList.add('incorrect');
+    btn.disabled = true;
+  });
+  if (idx === q.answer) correctCount++;
+  setTimeout(() => {
+    current++;
+    render();
+  }, 700);
+}
+
+function start() {
+  current = 0;
+  correctCount = 0;
+  order = shuffle(questions.map((_, i) => i));
+  render();
+}
+
+questions = [
+  {
+    "question": "what is 2+2?",
+    "options": [
+      "1",
+      "0",
+      "4",
+      "None of these"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "what color do you get if you mix red and yellow?",
+    "options": [
+      "Blue",
+      "Black",
+      "Orange",
+      "None of these"
+    ],
+    "answer": 2
+  }
+];
+start();
+</script>
+</body>
+</html>
