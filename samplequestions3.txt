@@ -3,7 +3,7 @@
   //   "options": [
   //     "We the States",
   //     "We the People",
-  //     "In God We Trus",
+  //     "In God We Trust",
   //     "Four Score"
   //   ],
   //   "answer": 1
